@@ -1,4 +1,4 @@
-<?php namespace ExtendUsers;
+<?php namespace extendusers;
 
 use Backend;
 use System\Classes\PluginBase;
@@ -60,7 +60,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'ExtendUsers\Components\ProfileForm' => 'profileForm'
+            'extendusers\Components\ProfileForm' => 'profileForm'
         ];
     }
 } 

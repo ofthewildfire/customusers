@@ -1,4 +1,4 @@
-<?php namespace ExtendUsers\Components;
+<?php namespace extendusers\Components;
 
 use Cms\Classes\ComponentBase;
 use RainLab\User\Models\User as UserModel;
