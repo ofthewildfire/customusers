@@ -9,5 +9,11 @@
     },
     "extra": {
         "installer-name": "extendusers"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ofthewildfire/extendusers"
+        }
+    ]
 } 

@@ -1,3 +1,3 @@
-1.0.0:
-    - 'Initial release of ExtendUsers plugin'
+1.0.2:
+    - 'Update repository configuration and prepare for Packagist'
     - create_extended_user_fields.php 
