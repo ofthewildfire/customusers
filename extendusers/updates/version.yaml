@@ -1,3 +1,3 @@
-1.0.1:
-    - 'First version of ExtendUsers plugin'
+1.0.0:
+    - 'Initial release of ExtendUsers plugin'
     - create_extended_user_fields.php 
