@@ -1,5 +1,5 @@
 {
-    "name": "ofthewildfire/extendusers",
+    "name": "ofthewildfire/customusers",
     "type": "october-plugin",
     "description": "Extends the OctoberCMS Users plugin with additional fields",
     "version": "1.0.6",
@@ -10,12 +10,12 @@
         "rainlab/user-plugin": ">=1.6.0"
     },
     "extra": {
-        "installer-name": "extendusers"
+        "installer-name": "customusers"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ofthewildfire/extendusers"
+            "url": "https://github.com/ofthewildfire/customusers"
         }
     ]
 } 

@@ -1,4 +1,4 @@
-<?php namespace extendusers;
+<?php namespace customusers;
 
 use Backend;
 use System\Classes\PluginBase;
@@ -12,11 +12,11 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'Extend Users',
+            'name'        => 'Custom Users',
             'description' => 'Extends the Users plugin with additional fields',
             'author'      => 'ofthewildfire',
             'icon'        => 'icon-user-plus',
-            'homepage'    => 'https://github.com/ofthewildfire/extendusers'
+            'homepage'    => 'https://github.com/ofthewildfire/customusers'
         ];
     }
 
@@ -60,7 +60,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'extendusers\Components\ProfileForm' => 'profileForm'
+            'customusers\Components\ProfileForm' => 'profileForm'
         ];
     }
 } 
