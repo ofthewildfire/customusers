@@ -2,7 +2,7 @@
     "name": "ofthewildfire/customusers",
     "type": "october-plugin",
     "description": "Extends the OctoberCMS Users plugin with additional fields",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "license": "MIT",
     "require": {
         "php": ">=7.2",
