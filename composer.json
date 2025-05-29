@@ -1,0 +1,13 @@
+{
+    "name": "ofthewildfire/extendusers",
+    "type": "october-plugin",
+    "description": "Extends the OctoberCMS Users plugin with additional fields",
+    "require": {
+        "php": ">=7.2",
+        "composer/installers": "~1.0",
+        "rainlab/user-plugin": ">=1.6.0"
+    },
+    "extra": {
+        "installer-name": "extendusers"
+    }
+} 

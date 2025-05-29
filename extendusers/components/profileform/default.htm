@@ -1,0 +1,44 @@
+<form
+    data-request="onUpdateProfile"
+    data-request-validate
+    data-request-flash>
+    
+    <div class="form-group">
+        <label for="organization">Organization</label>
+        <input
+            type="text"
+            name="organization"
+            id="organization"
+            class="form-control"
+            value="{{ user.organization }}"
+            required />
+        <div data-validate-for="organization"></div>
+    </div>
+
+    <div class="form-group">
+        <label for="city_state">City/State</label>
+        <input
+            type="text"
+            name="city_state"
+            id="city_state"
+            class="form-control"
+            value="{{ user.city_state }}"
+            required />
+        <div data-validate-for="city_state"></div>
+    </div>
+
+    <div class="form-group">
+        <label for="reason_for_joining">Reason for Joining</label>
+        <textarea
+            name="reason_for_joining"
+            id="reason_for_joining"
+            class="form-control"
+            rows="4"
+            required>{{ user.reason_for_joining }}</textarea>
+        <div data-validate-for="reason_for_joining"></div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Update Profile
+    </button>
+</form> 
